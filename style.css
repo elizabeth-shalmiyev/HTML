@@ -1,0 +1,33 @@
+body{
+    background-color: #9ff1ff;
+
+}
+
+html, body, *{
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 30rem;
+    height: 55rem;
+    background-color: #00ffff;
+    margin: 2.5rem 5rem; 
+    /*margin is space between elements*/
+    padding: 2.5rem;
+    /*padding is space within elements*/
+}
+.card{
+    background-color: #7fff6f;
+}
+.card-title{
+    text-align: center;
+    color: #fff999;
+}
+/*more specific overrides less specific. can be used multiple times*/
+#test{
+    background-color: #00010f;
+}
+/*the most specific, only one can be called this*/
