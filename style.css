@@ -8,23 +8,18 @@ body{
     align-items: center;
     text-align: center;
     height: 100vh;
-    color:hsl(180, 100%, 99%);
+    color:hsl(0, 0%, 0%);
     background-image: linear-gradient(
         rgba(173, 223, 255, 0.664)
-        rgba(128, 204, 255, 0.8)), 
-    url();
+        rgba(128, 204, 255, 0.8));
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-.hero-content{
-    width:85rem;
-    padding: 2rem;
-}
 .hero h1{
     font-size: 7rem;
-    margin-bottom: 2rem;
     text-shadow: 0 2px 8px rgba(255, 255, 255, 0.8);
+    margin-bottom: 2rem;
 }
 .hero p{
     font-size: 2.4rem;
@@ -50,16 +45,15 @@ html, body, *{
 }
 
 }
-div{
-    width: 100rem;
-    height: 10rem;
+.hero-content{
+   
+     width:85rem;
+    padding: 8rem;
     text-align: center;
     background-color: #74e9e9;
     border-radius: 5rem;
-    margin: 0; 
+    margin: 0rem auto; 
     /*margin is space between elements*/
-    padding: 0;
-    /*padding is space within elements*/
 }
 
 .card{
@@ -68,9 +62,11 @@ div{
     justify-content: space-around;
     align-items: center;
     width: 100rem;
-    height: 15rem;
+    height: 10rem;
     background-color: #fdffff;
     border-radius: 0.8rem;
+    margin: 0rem auto;
+    text-align: center;
 }
 .card-img{
     width: 100%;
